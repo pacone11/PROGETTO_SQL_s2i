@@ -10,6 +10,20 @@ delle vittime.
 Mettendo in evidenza dati come la mortalità infantile, aspettative di vita, salario minimo, spese mediche etc.
 Dalla tabella risultante si evince come il gran numero di migranti vittime di incidenti provenga da paesi in cui
 la situazione economico-sanitaria sia molto grave
+
+----------
+
+With this query I wanted to highlight the relationship between migrants who are victims of accidents 
+and the economic-health situation of their country of origin.
+To do this I created a 'sub-table' using a subquery that highlighted the number of accidents
+and the sum of victims for each country of origin.
+I decided to filter the results by removing accident data for which we do not have the country of origin
+victims.
+Then I performed an INNER JOIN with the general data of the countries by matching 'country' with 'country_of_origin'
+of the victims.
+Highlighting data such as infant mortality, life expectancy, minimum wage, medical expenses etc.
+From the resulting table it can be seen that the large number of migrants who are victims of accidents come from countries where
+the economic-health situation is very serious.
 */
 
 SELECT g_i.country, inc_per_country.incidents_number, inc_per_country.dead_numb, g_i.grossprimary_education_enrollment_percent, g_i.gross_tertiary_education_enrollment_percent, g_i.infant_mortality, g_i.life_expectancy, g_i.maternal_mortality_ratio, g_i.minimum_wage, g_i.out_of_pocket_health_expenditure

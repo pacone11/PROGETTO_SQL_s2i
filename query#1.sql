@@ -8,6 +8,18 @@ decido di prendere quello come riferimento e di scartare i paesi di cui non abbi
 
 Faccio quindi un inner join delle tabelle così ottenute utilizzando come dato comune 
 le coordinate (Latitudine e Longitudine) 
+
+---------
+
+The objective is to relate 'GDP' and 'Renewable Energy Generated' 
+
+I use a CTE to create two "temporary tables" that have respectively:
+-the top 50 countries by gross domestic product (gdp)
+-the top 50 countries for renewable energy generated per capita (since the last year available is 2020
+I decide to take that as a reference and discard the countries for which we do not have data)
+
+I then do an inner join of the tables thus obtained using common data 
+the coordinates (Latitude and Longitude)
 */
 WITH 
 	top50_gdp_countries AS (

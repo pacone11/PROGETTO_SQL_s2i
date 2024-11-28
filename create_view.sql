@@ -1,4 +1,12 @@
-
+/* 
+Creo una vista contenente la differenza di alcuni valori su cui ho deciso di focalizzare lo studio.
+Lo spazio temporale preso in esame è quello compreso tra gli estremi forniti dal dataset, ovvero 2000 e 2020.
+Vado poi a filtrare dai risultati le righe completamente null.
+-----
+I create a view containing the difference of some values on which I decided to focus.
+The timeframe examined is in between the extremes provided by the dataset, i.e. 2000 and 2020.
+I then filter the completely null rows from the results.
+*/
 CREATE VIEW difference_view AS(
 	WITH difference AS (	
 	SELECT * 
@@ -26,7 +34,7 @@ CREATE VIEW difference_view AS(
 	AND electr_from_renewable_diff IS NULL 
 	AND electr_from_low_carbon_diff IS NULL
 	)
-)
+);
 
 
 
