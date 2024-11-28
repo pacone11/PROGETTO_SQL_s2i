@@ -5,6 +5,17 @@ di popolazione.
 Siccome abbiamo dati annuali, tramite una subquery mi calcolo la media della densità per ogni paese,
 i risultati verranno poi combinati con la tabella più generica evidenziando tutti i dati che vogliamo prendere in esame.
 Ordinando in senso discendente per la densità, andiamo ad ottenere il risultato ricercato
+
+-----------
+
+What are the energy characteristics of countries with high population density?
+
+With this query I want to highlight which are the major energy sources in the highest density countries
+of population.
+Since we have annual data, using a subquery I calculate the average density for each country,
+the results will then be combined with the more generic table highlighting all the data we want to examine.
+By ordering in descending order by density, we obtain the desired results.
+
 */
 SELECT g_i.entity, density.avg_density, MAX(electricity_from_fossil_fuels_twh) AS fossil_fuels, MAX (electricity_from_nuclear_twh) AS nuclear, MAX(electricity_from_renewables_twh) AS renewables, MAX(low_carbon_electricity_percent_electricity) AS low_carbon
 FROM (

@@ -1,4 +1,6 @@
 /*
+-- C'è una correlazione tra le vittime di incidenti nei tragitti migratori e le condizioni economico-sanitarie dei loro paesi di origine?
+
 L'obiettivo è quello di mettere in evidenza la relazione tra i migranti vittime di incidenti 
 e la situazione economico-sanitaria del loro paese di origine.
 
@@ -15,6 +17,7 @@ Dalla tabella risultante si evince come il gran numero di migranti vittime di in
 la situazione economico-sanitaria sia molto grave
 
 ----------
+-- Is there a correlation between victims of accidents on migratory routes and the economic and health conditions of their countries of origin?
 
 The goal here is to highlight the relationship between migrants who are victims of accidents 
 and the economic-health situation of their country of origin.

@@ -1,4 +1,6 @@
-/* 
+/*  
+-- I paesi con PIL più alto sono anche quelli che generano più energia rinnovabile?
+
 L'obiettivo è quello di mettere in relazione 'PIL' e 'Capacità di Energia Rinnovabile Generata per capita'
 In particolare per vedere come i paesi con PIL più alto si comportano riguardo il 
 tema dell'energia rinnovabile.
@@ -15,6 +17,8 @@ Ordinando i risultati per 'Capacità di Energia Rinnovabile Generata per capita'
 vado a vedere quali tra i paesi 'più forti' si impegna di più sul fronte dell'energia rinnovabile
 
 ---------
+
+-- Are the countries with the highest GDP also the ones that generate the most renewable energy?
 
 The goal is to relate 'GDP' and 'renewable electricity generating capacity percapita' 
 in order to see how the countries with a higher gdp behave on renewable energies.

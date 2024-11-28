@@ -1,4 +1,6 @@
-/*
+/* 
+--Quali sono i paesi che producono/hanno prodotto più energia rinnovabile?
+
 L'obiettivo è quello di evidenziare i paesi che producono/hanno prodotto più energia rinnovabile.
 
 Poichè abbiamo dati annuali, ho calcolato il massimo valore in una subquery, in modo da avere un singolo
@@ -11,6 +13,7 @@ Ho ordinato i risultati  in modo tale da avere una visione chiara
 e immediata di quali sono i paesi che hanno generato più energia rinnovabile, evidenziandone l'anno.
 
 -------------
+-- Which countries produce/have produced the most renewable energy?
 
 The goal of this query is to highlight the countries that produce/has produced
 the most renewable energy.

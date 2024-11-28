@@ -1,4 +1,6 @@
 /*
+-- Con il passare degli anni come sono cambiate le condizioni di accesso e rifornimento energetico dei paesi più poveri?
+
 L'obiettivo di questa query è di evidenziare come sia cambiato l'accesso e l'approccio
 energetico (tra il 2000 e il 2020) in base al PIL del paese (riferito al 2023).
 In particolare facciamo un focus sui paesi a PIL più basso per vedere se le loro condizioni
@@ -11,6 +13,8 @@ dalla quale vado a selezionare solo i valori del PIL (gdp).
 Andando ad ordinare i risultati per gdp crescente si possono osservare i risultati cercati.
 
 ----------
+
+-- How have the conditions of access and energy supply in the poorest countries changed over the years?
 
 The goal of this query is to highlight how access and approaches to energy have changed over time
 (between 2000 and 2020) based on the country's GDP (referring to 2023).
