@@ -1,27 +1,31 @@
 /*
-Con questa query ho voluto mettere in evidenza la relazione tra i migranti vittime di incidenti 
+L'obiettivo è quello di mettere in evidenza la relazione tra i migranti vittime di incidenti 
 e la situazione economico-sanitaria del loro paese di origine.
-Per farlo mi sono creato creato una 'sottotabella' tramite una subquery che vada ed evidenziarmi
-il numero di incidenti e la somma delle vittime per ogni paese di origine.
+
+Per farlo mi sono creato creato una 'sottotabella' che va ed evidenziare
+il numero di incidenti e la somma delle vittime per ogni paese (paese di origine delle vittime)
+
 Ho deciso di filtrare i risultati rimuovendo i dati degli incidenti di cui non abbiamo il paese di origine delle
 vittime.
-Dopodichè ho effettuato un INNER JOIN con i dati generali dei paesi facendo combaciare 'country' con 'country_of_origin'
+Dopodichè ho effettuato un 'INNER JOIN' con i dati generali dei paesi facendo combaciare 'country' con 'country_of_origin'
 delle vittime.
 Mettendo in evidenza dati come la mortalità infantile, aspettative di vita, salario minimo, spese mediche etc.
+
 Dalla tabella risultante si evince come il gran numero di migranti vittime di incidenti provenga da paesi in cui
 la situazione economico-sanitaria sia molto grave
 
 ----------
 
-With this query I wanted to highlight the relationship between migrants who are victims of accidents 
+The goal here is to highlight the relationship between migrants who are victims of accidents 
 and the economic-health situation of their country of origin.
-To do this I created a 'sub-table' using a subquery that highlighted the number of accidents
-and the sum of victims for each country of origin.
-I decided to filter the results by removing accident data for which we do not have the country of origin
+
+To do this I created a 'sub-table' that highlighted the number of accidents
+and the sum of victims for each country (victims country of origin)
+I decided to filter the results by removing accident data for which we do not have the country of origin of the
 victims.
-Then I performed an INNER JOIN with the general data of the countries by matching 'country' with 'country_of_origin'
-of the victims.
-Highlighting data such as infant mortality, life expectancy, minimum wage, medical expenses etc.
+Then I performed an 'INNER JOIN' with the general data of the countries by matching 'country' with 'country_of_origin'
+of the victims highlighting data such as infant mortality, life expectancy, minimum wage, medical expenses etc.
+
 From the resulting table it can be seen that the large number of migrants who are victims of accidents come from countries where
 the economic-health situation is very serious.
 */
