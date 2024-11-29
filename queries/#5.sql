@@ -3,8 +3,8 @@
 Con questa query vogliamo andare a mettere in evidenza quali sono le maggiori fonti di energia dei paesi a più alta densità
 di popolazione.
 Siccome abbiamo dati annuali, tramite una subquery mi calcolo la media della densità per ogni paese,
-i risultati verranno poi combinati con la tabella più generica evidenziando tutti i dati che vogliamo prendere in esame.
-Ordinando in senso discendente per la densità, andiamo ad ottenere il risultato ricercato
+i risultati verranno poi combinati con il dataset più generico evidenziando tutti i dati che vogliamo prendere in esame.
+Ordinando in senso discendente per la densità, andiamo ad ottenere il risultato ricercato.
 
 -----------
 

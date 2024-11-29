@@ -2,8 +2,8 @@
 /* L'obiettivo di questa query è di verificare quali sono i popoli che hanno minor accesso all'elettricità.
 
 Ho creato prima due CTE:
-una che va ad individuare la percentuale di popolazione che ha accesso all'energia elettrica,
-l'altra che evidenzia i paesi con una popolazione maggiore, prendendo in esame solo i primi 50.
+una che va ad individuare la percentuale di popolazione che ha accesso all'energia elettrica (ho preso come riferimento l'anno 2020, che è il dato più aggiornato a disposizione)
+l'altra che evidenzia i paesi con popolazione maggiore, prendendo in esame solo i primi 50.
 Ho poi fatto un INNER JOIN basato sul nome del paese e ho ordinato i risultati per mostrare prima i paesi che hanno 
 una percentuale minore di accesso all'elettricità.
 

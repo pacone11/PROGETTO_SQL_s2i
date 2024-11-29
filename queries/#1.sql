@@ -1,9 +1,10 @@
 -- I paesi con alte emissioni di CO₂ dipendono maggiormente dai combustibili fossili?
 /*
 Con questa query andiamo a verificare la relazione tra le emissioni di co2 e la quota energetica proveniente
-da combustibili fossili.
-Siccome abbiamo valori annuali ho evidenziato il massimo valore per ogni paese in modo tale da avere un singolo dato per ognipaese
-raggruppando per stato e ordinando sia per combustibili fossili che per emissioni di co2 si denota una certa proporzionalità diretta tra i due valori
+da combustibili fossili di ogni paese.
+Siccome abbiamo valori annuali ho evidenziato il massimo valore per ogni paese in modo tale da avere un singolo dato di riferimento.
+
+Raggruppando per stato e ordinando sia per combustibili fossili che per emissioni di co2 si denota una certa proporzionalità diretta tra i due valori
 
 ----------
 
